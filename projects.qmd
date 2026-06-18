@@ -1,0 +1,137 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    css: styles.css
+    page-layout: full
+---
+
+```{=html}
+<div class="projects-page">
+
+  <!-- HEADER -->
+  <div class="projects-header">
+    <h1 class="projects-title">PROJECTS</h1>
+    <p class="projects-sub">A mix of research, coursework, and personal work in statistics and data science.</p>
+  </div>
+
+  <!-- FILTER BUTTONS -->
+  <div class="filter-bar">
+    <button class="filter-btn active" onclick="filterProjects('all')">All</button>
+    <button class="filter-btn" onclick="filterProjects('research')">Research</button>
+    <button class="filter-btn" onclick="filterProjects('coursework')">Coursework</button>
+    <button class="filter-btn" onclick="filterProjects('fun')">Just for Fun</button>
+  </div>
+
+  <!-- PROJECT CARDS GRID -->
+  <div class="projects-grid">
+
+    <!-- CARD 1 — swap in your own image, title, description, link -->
+    <div class="project-card" data-category="research">
+      <div class="card-img" style="background-color: #4a5275;">
+        <span class="card-img-label">Research</span>
+      </div>
+      <div class="card-body">
+        <div class="card-tag">Research</div>
+        <h3 class="card-title">Research-to-Policy Pathways</h3>
+        <p class="card-desc">Survival analysis of IES-funded research tracking time-to-first government policy citation across 20 years of grant data.</p>
+        <div class="card-links">
+          <a href="#" target="_blank">Paper →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="project-card" data-category="coursework">
+      <div class="card-img" style="background-color: #6b7ab5;">
+        <span class="card-img-label">Coursework</span>
+      </div>
+      <div class="card-body">
+        <div class="card-tag">Coursework</div>
+        <h3 class="card-title">Your Project Title</h3>
+        <p class="card-desc">Brief description of what you did, what method you used, and what you found or built.</p>
+        <div class="card-links">
+          <a href="#" target="_blank">GitHub →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="project-card" data-category="fun">
+      <div class="card-img" style="background-color: #8a7ab5;">
+        <span class="card-img-label">Just for Fun</span>
+      </div>
+      <div class="card-body">
+        <div class="card-tag">Just for Fun</div>
+        <h3 class="card-title">Your Project Title</h3>
+        <p class="card-desc">Brief description of the project and what drew you to it.</p>
+        <div class="card-links">
+          <a href="#" target="_blank">View →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="project-card" data-category="coursework">
+      <div class="card-img" style="background-color: #5a7a8a;">
+        <span class="card-img-label">Coursework</span>
+      </div>
+      <div class="card-body">
+        <div class="card-tag">Coursework</div>
+        <h3 class="card-title">Your Project Title</h3>
+        <p class="card-desc">Brief description of what you did, what method you used, and what you found or built.</p>
+        <div class="card-links">
+          <a href="#" target="_blank">GitHub →</a>
+          <a href="#" target="_blank">Report →</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- PUBLICATIONS & POSTERS SECTION -->
+  <div class="pubs-section">
+    <h2 class="pubs-title">PUBLICATIONS & POSTERS</h2>
+
+    <div class="pub-item">
+      <div class="pub-type">PAPER</div>
+      <div class="pub-body">
+        <div class="pub-title">Your Paper Title Here</div>
+        <div class="pub-authors">Kapoor, J., et al.</div>
+        <div class="pub-venue">Journal Name · 2024</div>
+        <a href="#" class="pub-link" target="_blank">View paper →</a>
+      </div>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-type">POSTER</div>
+      <div class="pub-body">
+        <div class="pub-title">Your Poster Title Here</div>
+        <div class="pub-authors">Kapoor, J., et al.</div>
+        <div class="pub-venue">Conference Name · 2024</div>
+        <a href="#" class="pub-link" target="_blank">View poster →</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+function filterProjects(category) {
+  // Update active button
+  document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+  event.target.classList.add('active');
+
+  // Show/hide cards
+  document.querySelectorAll('.project-card').forEach(card => {
+    if (category === 'all' || card.dataset.category === category) {
+      card.style.display = 'flex';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
+</script>
+```

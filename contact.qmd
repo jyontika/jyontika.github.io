@@ -1,0 +1,60 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    css: styles.css
+    page-layout: full
+---
+
+```{=html}
+<div class="contact-page">
+
+  <h1 class="contact-heading">Get In Touch</h1>
+  <p class="contact-subtext">
+    I'm open to research collaborations, consulting work, and data science roles.
+    Feel free to reach out — I'd love to connect.
+  </p>
+
+  <div class="contact-links">
+
+    <div class="contact-item">
+      <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+      <div class="contact-label">EMAIL</div>
+      <a href="mailto:jyontika@u.northwestern.edu">jyontika@u.northwestern.edu</a>
+    </div>
+
+    <div class="contact-item">
+      <div class="contact-icon"><i class="fa-brands fa-linkedin"></i></div>
+      <div class="contact-label">LINKEDIN</div>
+      <a href="https://linkedin.com/in/jyontika" target="_blank">linkedin.com/in/jyontika</a>
+    </div>
+
+    <div class="contact-item">
+      <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+      <div class="contact-label">GITHUB</div>
+      <a href="https://github.com/jyontika" target="_blank">github.com/jyontika</a>
+    </div>
+
+  </div>
+
+  <div class="contact-divider"></div>
+
+  <form class="contact-form" action="https://formspree.io/f/xkoalkaz" method="POST">
+    <div class="form-group">
+      <label>NAME</label>
+      <input type="text" name="name" placeholder="Your name" required>
+    </div>
+    <div class="form-group">
+      <label>EMAIL</label>
+      <input type="email" name="email" placeholder="your@email.com" required>
+    </div>
+    <div class="form-group">
+      <label>MESSAGE</label>
+      <textarea name="message" rows="6" placeholder="What's on your mind?" required></textarea>
+    </div>
+    <button type="submit" class="submit-btn">SEND MESSAGE</button>
+  </form>
+
+</div>
+```

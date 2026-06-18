@@ -1,0 +1,83 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    css: styles.css
+    page-layout: full
+---
+
+```{=html}
+<!-- NAVBAR -->
+<nav class="site-nav">
+  <div class="nav-brand">Jyontika Kapoor</div>
+  <div class="nav-links">
+    <a href="index.qmd">HOME</a>
+    <a href="projects.qmd">PROJECTS</a>
+    <a href="resume.qmd">RESUME</a>
+    <a href="contact.qmd">CONTACT</a>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<div class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1 class="hero-name">JYONTIKA KAPOOR</h1>
+    <p class="hero-tagline">PhD Student in Statistics & Data Science</p>
+    <a href="contact.qmd" class="hero-btn">GET IN TOUCH</a>
+  </div>
+</div>
+
+<!-- SKILLS STRIP -->
+<div class="skills-strip">
+
+  <div class="skill-item">
+    <div class="skill-icon"><i class="fa-solid fa-chart-line"></i></div>
+    <div class="skill-title">STATISTICAL MODELING</div>
+    <div class="skill-desc">Regression, GLMs, mixed models, missing data methods, and uncertainty quantification for applied research problems.</div>
+  </div>
+
+  <div class="skill-item">
+    <div class="skill-icon"><i class="fa-solid fa-brain"></i></div>
+    <div class="skill-title">MACHINE LEARNING & PREDICTION</div>
+    <div class="skill-desc">Predictive modeling, recommender systems, random forests, neural networks, transfer learning, and model explainability.</div>
+  </div>
+
+  <div class="skill-item">
+    <div class="skill-icon"><i class="fa-solid fa-flask"></i></div>
+    <div class="skill-title">CAUSAL INFERENCE & RESEARCH DESIGN</div>
+    <div class="skill-desc">Potential outcomes, propensity scores, and study design for observational and experimental research.</div>
+  </div>
+
+  <div class="skill-item">
+    <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+    <div class="skill-title">PROGRAMMING & DATA WORKFLOWS</div>
+    <div class="skill-desc">Python, R, and SQL for data cleaning, visualization, modeling, simulation, and reproducible analysis.</div>
+  </div>
+
+</div>
+
+<!-- ABOUT ME FOOTER SECTION -->
+<div class="about-section">
+  <div class="about-photo-placeholder">
+    <!-- Replace src with your actual photo path -->
+    <img src="photo.jpg" alt="Jyontika Kapoor" class="about-photo" 
+         onerror="this.style.display='none'">
+  </div>
+  <div class="about-text">
+    <h2>About Me</h2>
+    <p>
+     I am a third-year PhD student in Statistics and Data Science at Northwestern University, advised by Elizabeth Tipton. 
+    </p>
+    <p>
+     My current research uses statistical and social science methods to study how large language models represent human responses, with a specific focus on whether these models preserve meaningful variation across individuals and groups. More broadly, I am interested in how research evidence is generated, evaluated, and translated into policy and practice.
+
+    </p>
+    <p>
+      When I'm not in the data, you can find me traveling or running. I'm currently 
+      training for the 2026 Chicago Marathon!
+    </p>
+  </div>
+</div>
+```

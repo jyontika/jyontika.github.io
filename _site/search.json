@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "JYONTIKA KAPOOR",
+    "section": "",
+    "text": "Jyontika Kapoor\n  \n    HOME\n    PROJECTS\n    RESUME\n    CONTACT\n  \n\n\n\n\n  \n  \n    JYONTIKA KAPOOR\n    PhD Student in Statistics & Data Science\n    GET IN TOUCH\n  \n\n\n\n\n\n  \n    \n    STATISTICAL MODELING\n    Regression, GLMs, mixed models, missing data methods, and uncertainty quantification for applied research problems.\n  \n\n  \n    \n    MACHINE LEARNING & PREDICTION\n    Predictive modeling, recommender systems, random forests, neural networks, transfer learning, and model explainability.\n  \n\n  \n    \n    CAUSAL INFERENCE & RESEARCH DESIGN\n    Potential outcomes, propensity scores, and study design for observational and experimental research.\n  \n\n  \n    \n    PROGRAMMING & DATA WORKFLOWS\n    Python, R, and SQL for data cleaning, visualization, modeling, simulation, and reproducible analysis.\n  \n\n\n\n\n\n  \n    \n    \n  \n  \n    About Me\n    \n     I am a third-year PhD student in Statistics and Data Science at Northwestern University, advised by Elizabeth Tipton. \n    \n    \n     My current research uses statistical and social science methods to study how large language models represent human responses, with a specific focus on whether these models preserve meaningful variation across individuals and groups. More broadly, I am interested in how research evidence is generated, evaluated, and translated into policy and practice.\n\n    \n    \n      When I'm not in the data, you can find me traveling or running. I'm currently \n      training for the 2026 Chicago Marathon!"
+  },
+  {
+    "objectID": "index.html#skills-methods",
+    "href": "index.html#skills-methods",
+    "title": "Jyontika Kapoor",
+    "section": "",
+    "text": "Statistical Methods\nSurvival analysis\nMultilevel modeling\nCausal inference\nNegative binomial regression\nKaplan-Meier estimation\n\n\nTools & Languages\nR (tidyverse, survival, lme4)\nPython (pandas, sklearn)\nQuarto / R Markdown\nGit & GitHub\n\n\nDomains\nEducation research\nBibliometrics\nResearch-to-policy translation\nApplied research design"
+  },
+  {
+    "objectID": "index.html#selected-projects",
+    "href": "index.html#selected-projects",
+    "title": "Jyontika Kapoor",
+    "section": "",
+    "text": "Survival analysis of IES-funded research outputs tracking time-to-first government policy citation. Multi-state models for sequential citation pathways across 20 years of grant"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Get In Touch",
+    "section": "",
+    "text": "Get In Touch\n  \n    I'm open to research collaborations, consulting work, and data science roles.\n    Feel free to reach out — I'd love to connect.\n  \n\n  \n\n    \n      \n      EMAIL\n      jyontika@u.northwestern.edu\n    \n\n    \n      \n      LINKEDIN\n      linkedin.com/in/jyontika\n    \n\n    \n      \n      GITHUB\n      github.com/jyontika\n    \n\n  \n\n  \n\n  \n    \n      NAME\n      \n    \n    \n      EMAIL\n      \n    \n    \n      MESSAGE\n      \n    \n    SEND MESSAGE"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "PROJECTS",
+    "section": "",
+    "text": "PROJECTS\n    A mix of research, coursework, and personal work in statistics and data science.\n  \n\n  \n  \n    All\n    Research\n    Coursework\n    Just for Fun\n  \n\n  \n  \n\n    \n    \n      \n        Research\n      \n      \n        Research\n        Research-to-Policy Pathways\n        Survival analysis of IES-funded research tracking time-to-first government policy citation across 20 years of grant data.\n        \n          Paper →\n        \n      \n    \n\n    \n    \n      \n        Coursework\n      \n      \n        Coursework\n        Your Project Title\n        Brief description of what you did, what method you used, and what you found or built.\n        \n          GitHub →\n        \n      \n    \n\n    \n    \n      \n        Just for Fun\n      \n      \n        Just for Fun\n        Your Project Title\n        Brief description of the project and what drew you to it.\n        \n          View →\n        \n      \n    \n\n    \n    \n      \n        Coursework\n      \n      \n        Coursework\n        Your Project Title\n        Brief description of what you did, what method you used, and what you found or built.\n        \n          GitHub →\n          Report →\n        \n      \n    \n\n  \n\n  \n  \n    PUBLICATIONS & POSTERS\n\n    \n      PAPER\n      \n        Your Paper Title Here\n        Kapoor, J., et al.\n        Journal Name · 2024\n        View paper →\n      \n    \n\n    \n      POSTER\n      \n        Your Poster Title Here\n        Kapoor, J., et al.\n        Conference Name · 2024\n        View poster →"
+  }
+]
