@@ -302,7 +302,29 @@ main.content,
   background-color: #f2f2f2;
 }
 
-.resume-button.secondary {
+.resume-button.secondary {project:
+  type: website
+
+website:
+  title: "Jyontika"
+  navbar:
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Resume"
+        href: resume.pdf
+
+format:
+  html:
+    toc: false
+    css: styles.css
+    page-layout: full
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
   font-weight: 500;
 }
 
