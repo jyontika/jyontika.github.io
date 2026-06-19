@@ -317,8 +317,8 @@ main.content,
 
 /* ── Project card color accent bar ───────── */
 .card-img {
-  height: 16px !important;
-  min-height: 16px !important;
+  height: 20px !important;
+  min-height: 20px !important;
   padding: 0 !important;
   display: block !important;
   border-radius: 12px 12px 0 0 !important;
