@@ -438,121 +438,60 @@ h1.title,
   border-color: #4a5275;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 900px) {
 
-  /* Navbar — horizontal links */
-  
-  .site-nav {
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 1rem 1.5rem;
-    gap: 0.5rem;
+  /* Smaller Jyontika Kapoor hero text on mobile/tablet */
+  .hero-name {
+    font-size: 1.9rem !important;
+    letter-spacing: 0.12em !important;
+    line-height: 1.25 !important;
+    padding: 0 1rem !important;
   }
 
-  .nav-brand {
-    flex: 1;
-    font-size: 1rem;
+  /* About Me should use more of the mobile screen */
+  .about-section {
+    padding: 4rem 5% !important;
   }
 
-  .nav-links {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 0.4rem;
-    justify-content: flex-end;
+  .about-text {
+    width: 100% !important;
+    max-width: none !important;
   }
 
-  .nav-links a {
-    margin-left: 0;
-    font-size: 0.72rem;
-    letter-spacing: 0.06em;
+  .about-text p {
+    font-size: 0.95rem !important;
+    line-height: 1.8 !important;
   }
 
+  /* Contact page mobile layout */
+  .contact-page {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 3rem auto !important;
+    padding: 0 1.25rem !important;
+  }
 
-  /* Skills — single column */
-  .skills-strip {
-    grid-template-columns: 1fr !important;
-    padding: 3rem 8% !important;
-    gap: 2.5rem !important;
+  .contact-links {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    justify-content: center !important;
+    gap: 1.5rem !important;
+    margin-bottom: 3rem !important;
+  }
+
+  .contact-item {
+    width: 100% !important;
+    display: block !important;
     text-align: center !important;
   }
 
-  /* Projects — single column */
-  .projects-grid {
-    grid-template-columns: 1fr !important;
-    gap: 1.5rem !important;
-  }
-  
-  
-
-  .projects-page {
-    padding: 2rem 6% !important;
+  .contact-heading,
+  .contact-subtext {
+    text-align: center !important;
   }
 
-   .filter-bar {
-  display: grid !important;
-  grid-template-columns: repeat(2, 1fr) !important;
-  gap: 0.75rem !important;
-  margin-bottom: 2rem !important;
-}
-
-.filter-bar > * {
-  width: 100% !important;
+  .contact-heading {
+    font-size: 1.7rem !important;
   }
-
-.filter-btn {
-  width: 100% !important;
-  text-align: center !important;
-  flex: none !important;
-  }
-
-/* Contact page — mobile layout */
-.contact-page {
-  max-width: 100% !important;
-  margin: 3rem auto !important;
-  padding: 0 1.25rem !important;
-}
-
-.contact-links {
-  flex-direction: column !important;
-  gap: 2rem !important;
-  align-items: center !important;
-  margin-bottom: 3rem !important;
-}
-
-.contact-item {
-  width: 100% !important;
-  text-align: center !important;
-}
-
-.contact-heading {
-  font-size: 1.7rem !important;
-  text-align: center !important;
-}
-
-.contact-subtext {
-  text-align: center !important;
-}
-
-/* About section — mobile width */
-.about-section {
-  padding: 4rem 6% !important;
-}
-
-.about-text {
-  width: 100% !important;
-  max-width: 95% !important;
-}
-
-.about-text p {
-  font-size: 0.95rem !important;
-  line-height: 1.8 !important;
-}
-
-/* Hero name — smaller on mobile */
-.hero-name {
-  font-size: 2rem !important;
-  letter-spacing: 0.13em !important;
-}
 }
