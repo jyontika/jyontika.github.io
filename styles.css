@@ -282,15 +282,19 @@ main.content,
 
 /* ── Projects page container fix ───────── */
 .projects-page {
-  padding: 4rem 8%;
+  padding: 4rem 10%;
   width: 100%;
+  background: white;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
 }
 
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  margin-bottom: 5rem;
+  gap: 2.5rem;
+  margin-bottom: 15rem;
   width: 100%;
 }
 
@@ -301,6 +305,14 @@ main.content,
   overflow: hidden;
   transition: box-shadow 0.2s;
   width: 100%;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 1rem;
+  justify-content: left;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 /* ── Card typography overrides ──────────── */
@@ -424,4 +436,76 @@ h1.title,
   background: #4a5275;
   color: white;
   border-color: #4a5275;
+}
+
+/* ── Mobile Responsive ──────────────────── */
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .site-nav {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.2rem 1.5rem;
+    text-align: center;
+  }
+
+  .nav-links a {
+    margin-left: 1rem;
+    font-size: 0.8rem;
+  }
+
+  /* Hero */
+  .hero-name {
+    font-size: 2rem;
+    letter-spacing: 0.12em;
+  }
+
+  .hero-tagline {
+    font-size: 1rem;
+  }
+
+  /* Skills — stack to 1 column */
+  .skills-strip {
+    grid-template-columns: 1fr;
+    padding: 3rem 8%;
+    gap: 2.5rem;
+  }
+
+  /* About */
+  .about-section {
+    padding: 3rem 8%;
+  }
+
+  /* Projects grid — stack to 1 column */
+  .projects-page {
+    padding: 2rem 6%;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .filter-bar {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* Publications */
+  .pub-item {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  /* Contact */
+  .contact-links {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .contact-page {
+    padding: 0 1.5rem;
+    margin: 3rem auto;
+  }
+
 }
