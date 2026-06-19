@@ -473,14 +473,14 @@ h1.title,
   /* ── Hero — keep banner size, only shrink name ── */
 
   .hero-name {
-    font-size: 2.5rem !important;
+    font-size: 2.15rem !important;
     letter-spacing: 0.14em !important;
     line-height: 1.25 !important;
     padding: 0 1rem !important;
   }
 
   .hero-tagline {
-    font-size: 0.75rem !important;
+    font-size: 1rem !important;
     padding: 0 1rem !important;
   }
 
@@ -488,9 +488,15 @@ h1.title,
   /* ── Skills — single column on mobile ───── */
 
   .skills-strip {
+    display: grid !important;
     grid-template-columns: 1fr !important;
     padding: 3rem 8% !important;
     gap: 2.5rem !important;
+    text-align: center !important;
+  }
+
+  .skill-item {
+    width: 100% !important;
     text-align: center !important;
   }
 
@@ -550,24 +556,25 @@ h1.title,
   }
 
 
-  /* ── Projects page — mobile layout ──────── */
-
-  /* Projects — single column */
-  .projects-grid {
-    grid-template-columns: 1fr !important;
-    gap: 1.5rem !important;
-  }
+  /* ── Projects — single column on mobile ─── */
 
   .projects-page {
     padding: 2rem 6% !important;
   }
 
-  .filter-bar {
-    flex-wrap: wrap;
-    gap: 0.75rem;
+  .projects-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+    width: 100% !important;
   }
 
-  /* ── Project filter buttons — 2x2 grid ──── */
+  .project-card {
+    width: 100% !important;
+  }
+
+
+  /* ── Project filter buttons — 2x2 on mobile ── */
 
   .filter-bar {
     display: grid !important;
@@ -576,6 +583,7 @@ h1.title,
     margin-top: 1.5rem !important;
     margin-bottom: 2rem !important;
     width: 100% !important;
+    justify-content: initial !important;
   }
 
   .filter-bar > * {
