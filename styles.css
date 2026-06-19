@@ -280,6 +280,32 @@ main.content,
 
 .submit-btn:hover { background: #363c58; }
 
+.resume-page {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.resume-button {
+  display: inline-block;
+  margin: 1rem 0.5rem;
+  padding: 0.7rem 1.1rem;
+  border: 1px solid #333;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+.resume-button:hover {
+  background-color: #f2f2f2;
+}
+
+.resume-button.secondary {
+  font-weight: 500;
+}
+
 /* ── Projects page container fix ───────── */
 .projects-page {
   padding: 4rem 10%;
