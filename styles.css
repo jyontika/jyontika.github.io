@@ -315,20 +315,13 @@ main.content,
   margin-top: 1.5rem;
 }
 
-/* ── Card typography overrides ──────────── */
-.card-title {
-  font-size: 1rem !important;
-  font-weight: 600 !important;
-  margin: 0 0 0.5rem 0 !important;
-  color: #2a2a2a !important;
-  line-height: 1.4 !important;
-}
-
+/* ── Project card color accent bar ───────── */
 .card-img {
-  height: 14px !important;
+  height: 16px !important;
+  min-height: 16px !important;
   padding: 0 !important;
   display: block !important;
-  border-radius: 12px 12px 0 0;
+  border-radius: 12px 12px 0 0 !important;
 }
 
 .card-img-label {
@@ -367,14 +360,7 @@ h1.title,
   transform: translateY(-3px);
 }
 
-.card-img {
-  height: 18px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-  padding: 0.75rem;
-  border-radius: 12px 12px 0 0;
-}
+
 
 .card-body {
   padding: 1.4rem 1.6rem;
