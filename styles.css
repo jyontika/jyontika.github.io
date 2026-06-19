@@ -473,14 +473,14 @@ h1.title,
   /* ── Hero — keep banner size, only shrink name ── */
 
   .hero-name {
-    font-size: 2.15rem !important;
+    font-size: 2.5rem !important;
     letter-spacing: 0.14em !important;
     line-height: 1.25 !important;
     padding: 0 1rem !important;
   }
 
   .hero-tagline {
-    font-size: 1rem !important;
+    font-size: 0.75rem !important;
     padding: 0 1rem !important;
   }
 
@@ -552,15 +552,20 @@ h1.title,
 
   /* ── Projects page — mobile layout ──────── */
 
-  .projects-page {
-    padding: 2rem 6% !important;
-  }
-
+  /* Projects — single column */
   .projects-grid {
     grid-template-columns: 1fr !important;
     gap: 1.5rem !important;
   }
 
+  .projects-page {
+    padding: 2rem 6% !important;
+  }
+
+  .filter-bar {
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
 
   /* ── Project filter buttons — 2x2 grid ──── */
 
