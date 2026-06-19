@@ -494,4 +494,9 @@ h1.title,
   .contact-heading {
     font-size: 1.7rem !important;
   }
+  
+  body {
+  background: pink !important;
+}
+
 }
