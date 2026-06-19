@@ -209,22 +209,7 @@ ul.task-list li input[type="checkbox"] {
  
 </div>
 
-<script>
-function filterProjects(category) {
-  // Update active button
-  document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-  event.target.classList.add('active');
 
-  // Show/hide cards
-  document.querySelectorAll('.project-card').forEach(card => {
-    if (category === 'all' || card.dataset.category === category) {
-      card.style.display = 'flex';
-    } else {
-      card.style.display = 'none';
-    }
-  });
-}
-</script>
 
 
 
