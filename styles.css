@@ -325,15 +325,14 @@ main.content,
 }
 
 .card-img {
-  height: 14px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-  padding: 0.75rem;
+  height: 14px !important;
+  padding: 0 !important;
+  display: block !important;
+  border-radius: 12px 12px 0 0;
 }
 
 .card-img-label {
-  display: none;
+  display: none !important;
 }
 
 /* ── Kill Quarto page title ─────────────── */
