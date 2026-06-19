@@ -178,10 +178,10 @@ ul.task-list li input[type="checkbox"] {
       <div class="card-tag">Research</div>
       <h3 class="card-title anchored">Microbiome Lab Data Analysis</h3>
       <p class="card-desc">
-        Led data analysis for microbiome research projects presented as scientific posters at the Society for Neuroscience 2024 and ENDO 2025 conferences.
+        Led data analysis for microbiome research projects presented as scientific posters at the Society for Neuroscience (SfN) 2024 and ENDO 2025 conferences.
       </p>
   <div class="card-links card-links-stacked">
-    <a href="sfn-poster.pdf" target="_blank">Society for Neuroscience Poster →</a>
+    <a href="sfn-poster.pdf" target="_blank">SfN Poster →</a>
     <a href="endo-poster.pdf" target="_blank">ENDO Poster →</a>
   </div>
     </div>
@@ -205,6 +205,23 @@ ul.task-list li input[type="checkbox"] {
   </div>
 
 </div>
+
+<script>
+function filterProjects(category) {
+  // Update active button
+  document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+  event.target.classList.add('active');
+
+  // Show/hide cards
+  document.querySelectorAll('.project-card').forEach(card => {
+    if (category === 'all' || card.dataset.category === category) {
+      card.style.display = 'flex';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
+</script>
 
 
 
