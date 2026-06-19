@@ -507,5 +507,52 @@ h1.title,
   flex: none !important;
   }
 
+/* Contact page — mobile layout */
+.contact-page {
+  max-width: 100% !important;
+  margin: 3rem auto !important;
+  padding: 0 1.25rem !important;
+}
 
+.contact-links {
+  flex-direction: column !important;
+  gap: 2rem !important;
+  align-items: center !important;
+  margin-bottom: 3rem !important;
+}
+
+.contact-item {
+  width: 100% !important;
+  text-align: center !important;
+}
+
+.contact-heading {
+  font-size: 1.7rem !important;
+  text-align: center !important;
+}
+
+.contact-subtext {
+  text-align: center !important;
+}
+
+/* About section — mobile width */
+.about-section {
+  padding: 4rem 6% !important;
+}
+
+.about-text {
+  width: 100% !important;
+  max-width: 95% !important;
+}
+
+.about-text p {
+  font-size: 0.95rem !important;
+  line-height: 1.8 !important;
+}
+
+/* Hero name — smaller on mobile */
+.hero-name {
+  font-size: 2rem !important;
+  letter-spacing: 0.13em !important;
+}
 }
