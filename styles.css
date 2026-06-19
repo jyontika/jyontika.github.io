@@ -490,17 +490,21 @@ h1.title,
     padding: 2rem 6% !important;
   }
 
-    .filter-bar {
-    display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 0.75rem !important;
-    margin-bottom: 2rem !important;
+   .filter-bar {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 0.75rem !important;
+  margin-bottom: 2rem !important;
+}
+
+.filter-bar > * {
+  width: 100% !important;
   }
 
-  .filter-btn {
-    width: 100% !important;
-    text-align: center !important;
-    flex: none !important;
+.filter-btn {
+  width: 100% !important;
+  text-align: center !important;
+  flex: none !important;
   }
 
 
