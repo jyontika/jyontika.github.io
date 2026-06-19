@@ -473,14 +473,22 @@ h1.title,
     grid-template-columns: 1fr !important;
     gap: 1.5rem !important;
   }
+  
+  
 
   .projects-page {
     padding: 2rem 6% !important;
   }
 
   .filter-bar {
-    flex-wrap: wrap;
-    gap: 0.75rem;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  width: 100%;
+  }
+
+.filter-btn {
+  flex: 1 1 calc(50% - 0.75rem);
+  text-align: center;
   }
 
 }
